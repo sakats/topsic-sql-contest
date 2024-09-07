@@ -1,0 +1,9 @@
+SELECT
+    EMP_CODE AS "CODE",
+    EMP_ENG_NAME AS "ENG_NAME"
+FROM
+    EMP
+WHERE
+    EMP_ENG_NAME like ("%s%s%")
+ORDER BY
+    "CODE" ASC
